@@ -1,0 +1,57 @@
+.sticky-nav{
+    position: sticky;
+    top: 0;
+    background-color: $other-color;
+    padding-left: 3cm;
+    padding-right: 3cm;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    z-index: 1;
+}
+.nav-button{
+    @extend .round-button;
+    @extend .right-align;
+    background: $primary-color;
+    color : white;
+}
+
+/* nav bar styles */
+nav {
+    display :flex;
+    justify-content:flex-end;
+  
+}
+
+/* anchor tag styles */
+a{
+  padding-right:0.5cm;
+  text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+    color:black;
+  }
+  
+/* visited link */
+a:visited {
+color: black;
+}
+
+/* mouse over link */
+a:hover {
+color: $primary-color;
+}
+
+/* selected link */
+a:active {
+color: blue;
+}
+
+// /* navigation bar styles */
+// topnav a {
+//     display :flex;
+//     justify-content:flex-end;
+//     padding-right:0.5cm;
+//     text-decoration: none;
+// }

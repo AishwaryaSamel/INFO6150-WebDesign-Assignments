@@ -1,0 +1,7 @@
+//loop for padding
+@for $variable from 0 to 4{
+    $value : $variable + 2;
+    .paddingTop#{value}{
+        padding-top: $value+px;
+    }
+}

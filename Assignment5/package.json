@@ -1,0 +1,19 @@
+{
+  "name": "assignment-5-aishwaryasamel",
+  "version": "1.0.0",
+  "description": "Base repo for assignment 5 node.js has a search method implemented. This method returns descendent nodes matching the selector. Selector can be a tag name or a CSS class name. Node represents an HTML Element.  A node can have a tag name,a list of CSS classes and a list of children nodes.",
+  "main": "node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neu-mis-info6150-spring-2021/assignment-5-AishwaryaSamel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neu-mis-info6150-spring-2021/assignment-5-AishwaryaSamel/issues"
+  },
+  "homepage": "https://github.com/neu-mis-info6150-spring-2021/assignment-5-AishwaryaSamel#readme"
+}

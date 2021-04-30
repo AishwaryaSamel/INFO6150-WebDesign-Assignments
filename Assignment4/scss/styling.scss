@@ -1,0 +1,346 @@
+/* left align the header note */
+.left-align{
+    float : left;
+}
+/* right align the header note */
+.right-align{
+    float : right;
+}
+/* center alignment */
+.middle{
+    text-align : center;
+}
+/* rounded corners for button */
+.round-button{
+    border-radius: 25px;
+    padding: 14px 16px; 
+    // margin: 1cm;
+}
+
+/* change the color of the heading  */
+b{
+    color: $primary-color;
+}
+
+//square button
+.square-button{
+    padding: 6px; 
+    padding-left: 30px;
+    padding-right: 30px;;
+    text-align: center;
+    background-color: $primary-color;
+    color : white;
+}
+/* style and color of main heading */
+.headtitle{
+    // margin: 0;
+    font-weight: bolder;
+    font-size: map-get($font-sizes, "large");
+    color: $primary-color;
+    text-align : center;
+}
+//normal sized font
+.normal-font{
+    text-align: left;
+    font-size: map-get($font-sizes, "normal");
+}
+/* map usage sass */
+.medium-font {
+    margin: 2;
+    font-weight: bolder;
+    font-size: map-get($font-sizes, "medium");
+    color: $primary-color;
+}
+
+//**************** common grids and boxes ***********************//
+
+// flex-box 
+.flex-box{
+    text-align: center;
+    display: nth($display-type,1);
+    column-gap: 25px;
+    justify-content: center;
+  }
+  /* outer smoke white box */
+  .bg-box{
+    background-color: $other-color;
+    text-align: center;
+    padding : 20px;
+  }
+
+ /* outer white box */
+  .white-box{
+    text-align: center;
+    padding : 15px;
+  }
+
+//*************************************//
+
+
+/* text on image */
+.cleaning-container {
+    position: relative;
+    text-align: left;
+}
+
+/* text position on image */
+.cleaning-text {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    color: white;
+}
+/* get in touch with us button */
+.cleaning-button{
+   @extend .round-button;
+    background: white;
+    color : $primary-color;
+}
+
+//*************************************//
+
+//more services button
+.service-button{
+    @extend .round-button;
+    @extend .middle;
+    background: $primary-color;
+    color : white;
+}
+//***********************************//
+
+/* about company box */
+.about-box{
+    padding-left:5cm;
+    padding-right:5cm;
+    padding-top: 1.5cm;
+    padding-bottom: 1.5cm;
+}
+
+/* about description box */
+.about-desc-box{
+    height: 700px;
+}
+
+// more info button
+.info-button{
+    @extend .round-button;
+    @extend .middle;
+    background: $primary-color;
+    color : white;
+}
+
+//***********************************//
+
+/* strip box styling*/
+.strip{
+    text-align:center;
+    color:white;
+    margin: power(1,1) + 0.01cm;
+    padding : power(1,1) + 0.01cm;
+    background-color: $primary-color;
+}
+
+/* more services with us button */
+.strip-button{
+    @extend .round-button;
+     background: white;
+     color : $primary-color;
+ }
+
+ //***********************************//
+
+//meet our team grid
+.meet-grid{
+    display: nth($display-type,2);
+    text-align: center;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 40px;
+    grid-row-gap: 10px;
+}
+
+//************************************//
+
+/* pricing table outer box */
+.pricing-table-box{
+    display: nth($display-type,1);
+    justify-content: center;
+    padding-bottom: 1.5cm;
+}
+
+/* price box style */
+.price-box{
+    background-color: white;
+    padding-left : 0.5cm;
+    padding-right :0.5cm;
+    padding-top: 1cm;
+    margin-top: 1cm;
+    margin-right: 0.5cm;
+    margin-left: 0.5cm;
+}
+
+/* buy now square button */
+.buy-now-button{
+    @extend .square-button;
+    width: 185px;
+    height: 45px;
+}
+
+//************************************//
+
+/* blog box style */
+.blog-box{
+    display: nth($display-type,1);
+    justify-content: center;
+    grid-column-gap: 15px;
+}
+
+/* dot styling */
+.circle{
+    height: 40px;
+    width: 40px;
+    background-color: grey;
+    border-radius: 50%;
+    display: nth($display-type,4);
+    }
+
+//circle grid alignment
+// .circle-grid{
+//     display: grid;
+//     justify-content: left;
+//     grid-template-columns: auto auto;
+// }
+
+//************************************//
+
+//our projects grid
+.project-grid{
+    display: nth($display-type,2);
+    text-align: center;
+    justify-content: center;
+    grid-template-columns: auto auto auto auto;
+    // grid-column-gap: 40px;
+    // grid-row-gap: 10px;
+}
+
+//************************************//
+
+/* background image for form */
+.bg-img{
+    background-image: url("/Images/formimg.jpeg");
+    min-height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    }
+
+/* form container */
+.formcont {
+    position: absolute;
+    right : 300px;
+    margin: 40px;
+    max-width: 500px;
+    padding: power(2,5) - 2px;
+    background-color: white;
+}
+// send message button on form
+.form-button{
+    @extend .square-button;
+    width : $fullButton;
+}
+
+//************************************//
+
+// footer grid sass
+.footer-grid{
+    display: nth($display-type,2);
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+}
+
+//************************************//
+
+// our projects text on image styling
+.text-on-img{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    @include trans-blur(-50%,-50%,-50%,-50%);
+    // transform: translate(-50%, -50%);
+    // -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+// text styling for our projects
+.text {
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+// image styling for our projects
+.img-fade{
+    opacity: 1;
+    display: nth($display-type,3);
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    background-color: $primary-color;
+}
+
+// our projects inner boxes
+.project-container{
+    position: relative;
+    background-color: $primary-color;
+}
+
+// pesudo hover on image
+.project-container:hover .img-fade {
+    opacity: 0.3;
+  }
+ 
+// pesudo hover on text
+  .project-container:hover .text-on-img{
+    opacity: 1; 
+  }
+
+//************************************//
+
+/* price box outline pseudo class */
+div.price-box:hover{
+    outline: $primary-color  solid 4px;
+   }
+   
+/* price box child selector */
+div.price-box > p{
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* pseudo element first line */
+ article::first-line{
+    font-style: italic;
+}
+
+/* form button hover */
+button:hover{
+    background-color: aqua;
+}
+
+/* general sibling selector */
+h3 ~ b{
+    color: $primary-color;
+}
+
+
+// /* text position on image */
+// .center {
+//     position: absolute;
+//     top: 100px;
+//     left: 200px;
+//     color: white;
+// }

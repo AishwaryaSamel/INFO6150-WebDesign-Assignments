@@ -1,0 +1,22 @@
+{
+  "name": "css4",
+  "version": "1.0.0",
+  "description": "ASSIGNMENT 3",
+  "main": "index.js",
+  "scripts": {
+    "scss" : "node-sass scss/main.scss --output dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neu-mis-info6150-spring-2021/assignment-3-AishwaryaSamel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neu-mis-info6150-spring-2021/assignment-3-AishwaryaSamel/issues"
+  },
+  "homepage": "https://github.com/neu-mis-info6150-spring-2021/assignment-3-AishwaryaSamel#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

@@ -1,0 +1,80 @@
+.container{
+  text-align: center;
+  padding: 12px;
+  margin: 12px;
+font-size: 18px;
+}
+
+//table row 
+td{
+border: black solid 4px;
+padding: 12px;
+margin: 12px;
+background-color: pink;
+}
+
+//button style
+button{
+  border-radius: 25px;
+  padding: 14px 16px; 
+  background-color:lightblue;
+}
+
+// button hover
+button:hover{
+  background-color: yellow;
+}
+
+//title font style
+.title-style{
+font-weight: bold;
+font-size: 18px;
+}
+
+table{
+width: 100%;
+}
+
+//modal outer
+.modal{
+display: none;
+padding-top: 100px;
+left: 0;
+top: 0;
+z-index: 1;
+overflow: auto;
+position: fixed;
+width: 100%;
+height: 100%;
+}
+
+// modal inner
+.modal-content {
+text-align: center;
+width: 80%;
+border: 1px solid #888;
+margin: auto;
+padding: 20px;
+background-color: lightgreen;
+}
+
+//close icon
+.close {
+float: right;
+font-weight: bold;
+color: #aaaaaa;
+font-size: 28px;
+}
+
+//close hover and focus
+.close:hover,
+.close:focus {
+text-decoration: none;
+color: #000;
+cursor: pointer;
+}
+
+//td hover
+td:hover{
+  background-color: yellow;
+}

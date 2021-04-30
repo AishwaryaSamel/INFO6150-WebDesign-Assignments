@@ -1,0 +1,9 @@
+/* Box Shadow  */
+@mixin box-shadow($val){
+    box-shadow: $val;
+}
+
+@mixin trans-blur($value1, $value2, $value3, $value4,){
+    transform: translate($value1, $value2);
+    -ms-transform: translate($value3, $value4);
+}

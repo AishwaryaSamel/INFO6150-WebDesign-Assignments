@@ -1,0 +1,8 @@
+// function to calculate power 
+@function power($value, $exponent){
+    $result: 1;
+    @for $_ from 1 through $exponent{
+        $result: $result * $value;
+    }
+    @return $result;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "assignment-7-aishwaryasamel",
+  "version": "1.0.0",
+  "description": "Assignment 7",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass scss/main.scss --output dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neu-mis-info6150-spring-2021/assignment-7-AishwaryaSamel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neu-mis-info6150-spring-2021/assignment-7-AishwaryaSamel/issues"
+  },
+  "homepage": "https://github.com/neu-mis-info6150-spring-2021/assignment-7-AishwaryaSamel#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0",
+    "save": "^2.4.0"
+  }
+}

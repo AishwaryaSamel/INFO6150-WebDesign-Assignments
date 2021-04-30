@@ -1,0 +1,52 @@
+h1{
+    text-align: center;
+    color:purple;
+}
+.main{
+    padding: 12px;
+    margin-right: 10cm;
+    margin-left: 10cm;
+    font-size: 18px;
+    height: 19cm;
+    width: 19cm;
+    text-align: center;
+    background-color: pink;
+  }
+
+.container{
+    background-color:lightyellow; 
+    margin-left: 2cm;
+    margin-right: 2cm;
+    width: 15cm; 
+    height: 14cm;
+}
+
+select{
+    height: 1cm;
+    width: 3cm;
+}
+
+select:hover{
+    background-color: yellow;
+    font-size: medium;
+    
+}
+
+.tool-box {
+    display: grid;
+    grid-template-columns: 120px 120px 50px 50px 35px 20px;
+    justify-content:center;
+    margin-bottom: 1cm;
+  }
+
+  button{
+      height: 1cm;
+  }
+
+  button:hover{
+    background-color: purple;    
+}
+
+
+
+
